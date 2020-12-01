@@ -10,7 +10,7 @@ const cameraView = document.querySelector("#camera--view"),
 const videoSelect = document.querySelector('select#videoSource');
 // Access the device camera and stream to cameraView
 function cameraStart() {
-    const videoSource = camera1;
+    const videoSource = videoSelect.value;;
     const constraints = {
     video: {deviceId: videoSource ? {exact: videoSource} : undefined}
     }; 
