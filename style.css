@@ -13,7 +13,7 @@ html, body{
 }
 
 #camera--view, #camera--sensor, #camera--output{
-    transform: scaleY(-1);
+    transform: scaleX(-1);
     filter: FlipH;
 }
 
